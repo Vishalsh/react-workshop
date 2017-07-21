@@ -1,5 +1,9 @@
-import './index.scss';
+import React from 'react';
+import {render} from 'react-dom';
 
-const index = () => {};
+import Home from 'components/Home/Home';
 
-export default index;
+render(
+  <Home />,
+  document.getElementById('index')
+);

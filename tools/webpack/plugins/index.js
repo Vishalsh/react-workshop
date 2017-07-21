@@ -1,20 +1,20 @@
-import cleanWebpackPlugin from './cleanWebpackPlugin';
-import extractTextPlugin from './extractTextPlugin';
+// import cleanWebpackPlugin from './cleanWebpackPlugin';
+// import extractTextPlugin from './extractTextPlugin';
 import htmlWebpackPlugin from './htmlWebpackPlugin';
 import commonChunkPlugin from './commonChunkPlugin';
 import uglifyJsPlugin from './uglifyJsPlugin';
 import sourceMapDevToolPlugin from './sourceMapDevToolPlugin';
-import styleLintWebpackPlugin from './styleLintWebpackPlugin';
+// import styleLintWebpackPlugin from './styleLintWebpackPlugin';
 import visualizerPlugin from './visualizerPlugin';
 import definePlugin from './definePlugin';
 import globals from '../globals';
 
 let commonPlugins = [
-  cleanWebpackPlugin,
-  extractTextPlugin,
+  // cleanWebpackPlugin,
+  // extractTextPlugin,
   htmlWebpackPlugin,
   commonChunkPlugin,
-  styleLintWebpackPlugin,
+  // styleLintWebpackPlugin,
   definePlugin
 ];
 
